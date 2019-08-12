@@ -4,7 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/app/Contact.php" line="20" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44cdb9fb-2c70-488c-9328-50e2dcc9eee7" name="Default Changelist" comment="" />
+    <list default="true" id="44cdb9fb-2c70-488c-9328-50e2dcc9eee7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/InformationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/InformationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/upload/slide1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/upload/slide2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/upload/slide3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/upload/slide4.jpg" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +37,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Site/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="e#45#65#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Site/default/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -52,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/InformationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="123" column="81" selection-start-line="123" selection-start-column="81" selection-end-line="123" selection-end-column="81" />
+            <state relative-caret-position="624">
+              <caret line="159" column="13" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
               <folding>
                 <element signature="e#46#66#0#PHP" expanded="true" />
               </folding>
@@ -64,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Admin/information/edit_content.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="120" selection-start-line="50" selection-start-column="113" selection-end-line="50" selection-end-column="120" />
+            <state relative-caret-position="901">
+              <caret line="53" column="100" selection-start-line="53" selection-start-column="100" selection-end-line="53" selection-end-column="100" />
             </state>
           </provider>
         </entry>
@@ -111,6 +107,9 @@
       <replace>$Info</replace>
       <replace>$information</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -260,6 +259,7 @@
     <option name="width" value="890" />
     <option name="height" value="895" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -386,6 +386,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -436,18 +437,23 @@
       <workItem from="1564886776168" duration="8585000" />
       <workItem from="1564967646489" duration="12335000" />
       <workItem from="1565054849092" duration="2903000" />
-      <workItem from="1565142588660" duration="8945000" />
+      <workItem from="1565142588660" duration="14792000" />
+      <workItem from="1565330640031" duration="6200000" />
+      <workItem from="1565419203823" duration="5967000" />
+      <workItem from="1565508190635" duration="3251000" />
+      <workItem from="1565578719545" duration="1512000" />
+      <workItem from="1565597167554" duration="1589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175028000" />
+    <option name="totallyTimeSpent" value="199394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17449665" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -735,20 +741,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Site/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="272">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="e#45#65#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -761,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin/information/edit_content.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="120" selection-start-line="50" selection-start-column="113" selection-end-line="50" selection-end-column="120" />
+        <state relative-caret-position="901">
+          <caret line="53" column="100" selection-start-line="53" selection-start-column="100" selection-end-line="53" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -775,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/InformationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="123" column="81" selection-start-line="123" selection-start-column="81" selection-end-line="123" selection-end-column="81" />
+        <state relative-caret-position="624">
+          <caret line="159" column="13" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
           <folding>
             <element signature="e#46#66#0#PHP" expanded="true" />
           </folding>

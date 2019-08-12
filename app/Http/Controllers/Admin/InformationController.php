@@ -120,36 +120,31 @@ class InformationController extends AdminController
         return view('Admin.information.edit_content', compact('information'));
     }
 
-    public function updateInformation(Request $request){
-        $informations = Information::where('slug', $request->input('slug'))->get();
-//        var_dump($informations); die;
+    public function updateInformation(Request $request, Information $information){
+//        var_dump($information); die;
+        $informations = Information::get()->toArray();
         $contents = $request->input('content');
-//        $images = $request->image;
         $imageOlds = $request->input('image_old');
-//        var_dump($imageOlds); die;
 
         foreach ($informations as $id => $info) {
-            if ($info->type_input == 'image') {
+            if ($info['type_input'] == 'image') {
                 //check file
                 if ($request->hasFile('content')) {
                     $files = $request->file('content');
                     foreach ($files as $file) {
                         //take file name
                         $fileNames = $file->getClientOriginalName();
-
                         //upload file
                         $file->move('admin/upload/', $fileNames);
-//                        var_dump($a); die;
-
                         //update to DB
-                        $info->update([
+                        $information->update([
                             'content' => $fileNames,
                             'updated_at' => new DateTime()
                         ]);
                     }
                 } else {
                     foreach ($imageOlds as $imageOld) {
-                        $info->update([
+                        $information->update([
                             'content' => $imageOld,
                             'updated_at' => new DateTime()
                         ]);
@@ -157,7 +152,7 @@ class InformationController extends AdminController
                 }
             } else {
                 foreach ($contents as $content) {
-                    $info->update([
+                    $information->update([
                         'content' => $content,
                         'updated_at' => new DateTime()
                     ]);
